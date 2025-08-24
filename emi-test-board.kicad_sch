@@ -5,6 +5,169 @@
 	(uuid "79f480d4-ad37-4b66-a259-96ab4b59ec6d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1281,15 +1444,35 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Min 4V, Max 40V"
+	(text "Keep feedback wiring away from inductor flux"
 		(exclude_from_sim no)
-		(at 51.562 93.726 0)
+		(at 145.796 84.836 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "120a46fe-7761-491d-9c4f-250adcda8e44")
+	)
+	(text "Min 4.5V, Max 40V"
+		(exclude_from_sim no)
+		(at 50.8 93.98 0)
 		(effects
 			(font
 				(size 0.762 0.762)
 			)
 		)
 		(uuid "47bc3053-107d-43cf-930a-b62019dd311d")
+	)
+	(text "Low ESR\nshort leads"
+		(exclude_from_sim no)
+		(at 178.562 100.838 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "5d4a0cb9-b26b-4eef-9141-e1dd149a2dba")
 	)
 	(junction
 		(at 87.63 95.25)
@@ -1385,6 +1568,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 72.39) (xy 85.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dd5b19-69c0-432a-83a6-ea205e9e0acd")
+	)
+	(wire
+		(pts
 			(xy 184.15 95.25) (xy 193.04 95.25)
 		)
 		(stroke
@@ -1442,6 +1635,26 @@
 			(type default)
 		)
 		(uuid "35b2c370-cf55-4594-8a73-2e8df7d1cb4c")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 76.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d59329-9cfc-4c99-8115-7a31305b115d")
+	)
+	(wire
+		(pts
+			(xy 85.09 72.39) (xy 85.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389e3a40-878c-476c-9c32-ed15e46e6ca6")
 	)
 	(wire
 		(pts
@@ -1713,6 +1926,16 @@
 		)
 		(uuid "fdce2ade-b358-4af6-892a-0f280c6adc14")
 	)
+	(wire
+		(pts
+			(xy 67.31 69.85) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed4cf83-a6cc-4db0-a50f-2cc6be9e1e86")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 116.84 110.49 0)
@@ -1774,6 +1997,74 @@
 			(project ""
 				(path "/79f480d4-ad37-4b66-a259-96ab4b59ec6d"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 62.23 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07f8ad6f-39b2-4329-bf27-93de85198e33")
+		(property "Reference" "J1"
+			(at 62.865 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 62.865 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "400712a8-f93f-41a2-b711-202f16a446f0")
+		)
+		(pin "2"
+			(uuid "8df41951-2135-468b-9048-623660851fc2")
+		)
+		(instances
+			(project ""
+				(path "/79f480d4-ad37-4b66-a259-96ab4b59ec6d"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1872,7 +2163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 184.15 100.33 0)
 			(effects
 				(font
@@ -1881,7 +2172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/KYBLL-e.PDF"
 			(at 184.15 100.33 0)
 			(effects
 				(font
@@ -2026,7 +2317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:INDM3225X240N"
 			(at 149.86 95.25 0)
 			(effects
 				(font
@@ -2035,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/30/db/ind_2008/b82422h.pdf"
 			(at 149.86 95.25 0)
 			(effects
 				(font
@@ -2162,7 +2453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:PCAP_10x10-ELECT_NCA"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -2171,7 +2462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -2199,6 +2490,71 @@
 			(project "emi-test-board"
 				(path "/79f480d4-ad37-4b66-a259-96ab4b59ec6d"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 85.09 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a286caf-bc63-411c-9404-afba2c58f336")
+		(property "Reference" "#PWR05"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3 Buck"
+			(at 85.09 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e21666ad-204e-457c-931e-0f85e7930e53")
+		)
+		(instances
+			(project "emi-test-board"
+				(path "/79f480d4-ad37-4b66-a259-96ab4b59ec6d"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2296,7 +2652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:IND_ASPI-0602S-3R0M-T"
 			(at 175.26 95.25 0)
 			(effects
 				(font
@@ -2305,7 +2661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://abracon.com/Magnetics/power/ASPI-0602S.pdf"
 			(at 175.26 95.25 0)
 			(effects
 				(font
@@ -2357,7 +2713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "330uF"
 			(at 72.39 101.7269 0)
 			(effects
 				(font
@@ -2366,7 +2722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project_footprints:PCAP_10x10-ELECT_NCA"
 			(at 69.85 100.33 0)
 			(effects
 				(font
@@ -2375,7 +2731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 69.85 100.33 0)
 			(effects
 				(font
@@ -2436,7 +2792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P12.70mm_Horizontal"
 			(at 137.16 100.33 0)
 			(effects
 				(font
@@ -2445,7 +2801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/d8/3f/72/85/bc/90/4e/f7/CD00001626.pdf/files/CD00001626.pdf/jcr:content/translations/en.CD00001626.pdf"
 			(at 137.16 100.33 0)
 			(effects
 				(font
@@ -2479,6 +2835,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 76.2 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4229cde-f8ca-4560-b1ee-8387aef8c0eb")
+		(property "Reference" "#PWR04"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 76.2 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a154e78d-df88-4a36-a10c-5f495cc68d7c")
+		)
+		(instances
+			(project "emi-test-board"
+				(path "/79f480d4-ad37-4b66-a259-96ab4b59ec6d"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 87.63 100.33 0)
 		(unit 1)
@@ -2506,7 +2927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 87.63 100.33 0)
 			(effects
 				(font
