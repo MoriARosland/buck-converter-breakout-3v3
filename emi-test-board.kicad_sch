@@ -1936,6 +1936,16 @@
 		)
 		(uuid "fed4cf83-a6cc-4db0-a50f-2cc6be9e1e86")
 	)
+	(label "BUCK_OUT"
+		(at 137.16 95.25 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "f33f5bd3-7974-462b-bbb2-effebe8d30a7")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 116.84 110.49 0)
@@ -2028,7 +2038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 62.23 69.85 0)
 			(effects
 				(font
@@ -2453,7 +2463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_footprints:PCAP_10x10-ELECT_NCA"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -2471,7 +2481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "C45107"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -2722,7 +2732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "project_footprints:PCAP_10x10-ELECT_NCA"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 69.85 100.33 0)
 			(effects
 				(font
@@ -2740,7 +2750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "C45107"
 			(at 69.85 100.33 0)
 			(effects
 				(font
