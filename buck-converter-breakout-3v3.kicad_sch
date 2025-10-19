@@ -2441,6 +2441,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C492400"
+			(at 60.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "400712a8-f93f-41a2-b711-202f16a446f0")
 		)
@@ -2571,6 +2580,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C124375"
+			(at 63.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "546b676f-4fc9-448d-ac66-56670373ecb2")
 		)
@@ -2639,7 +2657,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C3096093"
+		(property "LCSC Part #" "C3096093"
 			(at 64.77 49.53 0)
 			(effects
 				(font
@@ -2719,6 +2737,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2681226"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33ba6894-1179-4539-9e0a-df598ffd0b75")
 		)
@@ -2778,7 +2805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_footprints:INDM3225X240N"
+		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRF00101040"
 			(at 149.86 95.25 0)
 			(effects
 				(font
@@ -2798,6 +2825,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 149.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C6364681"
+			(at 149.86 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3034,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C45107"
+		(property "Description" ""
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C45107"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -3331,7 +3376,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C45107"
+		(property "Description" ""
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C45107"
 			(at 69.85 100.33 0)
 			(effects
 				(font
@@ -3410,6 +3464,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C95400"
+			(at 137.16 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22a8c6d1-3dc7-4f78-bde5-c4ad38b1e516")
 		)
@@ -3472,6 +3535,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15849"
 			(at 87.63 100.33 0)
 			(effects
 				(font
