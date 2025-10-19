@@ -137,7 +137,7 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/42d42af2-489f-4a65-a62f-8f63448657a7")
 		(sheetname "/")
-		(sheetfile "emi-test-board.kicad_sch")
+		(sheetfile "buck-converter-breakout-3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -2.56)
@@ -482,7 +482,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6ec8483-e8a4-49ba-b26e-f35dd94ed014")
 		(sheetname "/")
-		(sheetfile "emi-test-board.kicad_sch")
+		(sheetfile "buck-converter-breakout-3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -681,7 +681,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6e77938b-e2dd-45d2-920e-cb06c7e1cfd5")
 		(sheetname "/")
-		(sheetfile "emi-test-board.kicad_sch")
+		(sheetfile "buck-converter-breakout-3v3.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.979646 -2.875)
@@ -2757,7 +2757,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/07f8ad6f-39b2-4329-bf27-93de85198e33")
 		(sheetname "/")
-		(sheetfile "emi-test-board.kicad_sch")
+		(sheetfile "buck-converter-breakout-3v3.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -3014,7 +3014,7 @@
 		(property ki_fp_filters "BarrelJack*")
 		(path "/23901af1-17f2-4632-bdc5-25bc7e509bc4")
 		(sheetname "/")
-		(sheetfile "emi-test-board.kicad_sch")
+		(sheetfile "buck-converter-breakout-3v3.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.6 13.8)
@@ -3386,7 +3386,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1c5a9a48-6c22-4052-9681-2e97768ffccb")
 		(sheetname "/")
-		(sheetfile "emi-test-board.kicad_sch")
+		(sheetfile "buck-converter-breakout-3v3.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -3639,7 +3639,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/c1f821a7-5e52-408c-a57f-ea84aa87844d")
 		(sheetname "/")
-		(sheetfile "emi-test-board.kicad_sch")
+		(sheetfile "buck-converter-breakout-3v3.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 11.22 -2.72)
@@ -3882,7 +3882,7 @@
 			(uuid "6154a08f-c052-4ebc-95a4-1489fb3514e3")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3925,7 +3925,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/5715a5e3-9f65-492b-b426-227001de86bd")
 		(sheetname "/")
-		(sheetfile "emi-test-board.kicad_sch")
+		(sheetfile "buck-converter-breakout-3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.36 1.25)
@@ -4113,7 +4113,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9ac1a9e2-c755-41d0-b80c-5eb943b489b8")
 		(sheetname "/")
-		(sheetfile "emi-test-board.kicad_sch")
+		(sheetfile "buck-converter-breakout-3v3.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.979646 -2.875)
@@ -6249,6 +6249,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Designed by\nMori Adrian Rosland"
+		(at 111.25 50.5 90)
+		(layer "B.SilkS")
+		(uuid "7d36048c-2687-4356-94e1-62b8f2cbaf34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 101.25 81.81)
 		(end 99.56 81.81)
@@ -6647,9 +6659,9 @@
 		)
 		(polygon
 			(pts
-				(xy 98.5 78.75) (xy 98.5 78.75) (xy 98.5 75) (xy 98.25 74.75) (xy 95.25 74.75) (xy 95 75) (xy 95 77.75)
-				(xy 95.25 78) (xy 95.5 78) (xy 95.75 78.25) (xy 95.75 80.75) (xy 96 81) (xy 97.75 81) (xy 98 80.75)
-				(xy 98 80) (xy 98.25 79.75) (xy 102 79.75) (xy 102.25 79.5) (xy 102.25 78.75)
+				(xy 98.5 78.75) (xy 98.5 75) (xy 98.25 74.75) (xy 95.25 74.75) (xy 95 75) (xy 95 77.75) (xy 95.25 78)
+				(xy 95.5 78) (xy 95.75 78.25) (xy 95.75 80.75) (xy 96 81) (xy 97.75 81) (xy 98 80.75) (xy 98 80)
+				(xy 98.25 79.75) (xy 102 79.75) (xy 102.25 79.5) (xy 102.25 78.75)
 			)
 		)
 		(filled_polygon
